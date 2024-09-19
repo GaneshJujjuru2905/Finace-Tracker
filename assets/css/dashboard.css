@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #558d4b;
+}
+  
+  h1 {
+    text-align: center;
+  }
+  
+  canvas {
+    width: 100%;
+    height: 400px;
+    margin: 20px auto;
+    border: 1px solid #cbc87f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #net-worth {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }

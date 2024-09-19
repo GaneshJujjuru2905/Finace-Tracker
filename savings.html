@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Savings Tracker</title>
+  <link rel="stylesheet" href="./assets/css/savings.css">
+</head>
+<body>
+  <h1>Savings Tracker</h1>
+  <form id="savings-form">
+    <label for="date">Date:</label>
+    <input type="date" id ="date" name="date"><br><br>
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" name="amount"><br><br>
+    <label for="type">Type:</label>
+    <select id="type" name="type">
+      <option value="emergency fund">Emergency Fund</option>
+      <option value="retirement">Retirement</option>
+      <!-- Add more types here -->
+    </select><br><br>
+    <input type="submit" value="Add Savings">
+  </form>
+  <script src="./assets/js/savings.js"></script>
+</body>
+</html>

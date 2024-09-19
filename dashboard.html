@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="./assets/css/dashboard.css">
+</head>
+<body>
+  <h1>Dashboard</h1>
+  <div class="dashboard-container">
+    <div class="chart-container">
+      <canvas id="income-vs-expenses-chart"></canvas>
+      <h2>Income vs. Expenses</h2>
+    </div>
+    <div class="chart-container">
+      <canvas id="savings-progress-chart"></canvas>
+      <h2>Savings Progress</h2>
+    </div>
+    <div class="net-worth-container">
+      <h2>Net Worth: <span id="net-worth">$0.00</span></h2>
+      <p>As of <span id="net-worth-date">Today</span></p>
+    </div>
+    <div class="budget-allocation-container">
+      <canvas id="budget-allocation-chart"></canvas>
+      <h2>Budget Allocation</h2>
+    </div>
+    <div class="alerts-container">
+      <h2>Alerts</h2>
+      <ul id="alerts-list">
+        <!-- Alerts will be displayed here -->
+      </ul>
+    </div>
+  </div>
+  <script src="dashboard.js"></script>
+</body>
+</html>
